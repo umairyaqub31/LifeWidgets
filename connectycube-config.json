@@ -1,0 +1,21 @@
+{
+  "name": "LifeWidget",
+  "displayName": "LifeWidget",
+  "senderID": "594331487245",
+  "connectyCubeConfig": [
+    {
+      "appId": 4515,
+      "authKey": "ZxftAL9hrOt2UJc",
+      "authSecret": "qemYgpk2z3-Om5O"
+    },
+    { "chat": {
+      "streamManagement": {
+        "enable": true
+      }
+    },
+      "debug": {
+        "mode": 1
+      }
+    }
+  ]
+}

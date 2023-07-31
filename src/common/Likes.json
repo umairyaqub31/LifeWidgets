@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "name":"John Doe",
+        "profile":"http://hgo.betabilisim.net/alfa/cron/avatars/7880868717.jpg",
+        "mutual":"2 mutual friend"
+    },
+    {
+        "id":2,
+        "name":"John Charles",
+        "profile":"https://i.pinimg.com/originals/79/59/bb/7959bbc67069c756c0b31b0ec09890df.jpg",
+        "mutual":""
+    }
+]

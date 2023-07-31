@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src/",
+      "paths": {
+        "@common": ["common"],
+        "@containers": ["containers"],
+        "@components": ["components"],
+        "@navigation": ["navigation"],
+        "@images": ["images"],
+        "@helpers": ["helpers"],
+        "@redux": ["redux"]
+      }
+    },
+    "exclude": ["node_modules"]
+  }

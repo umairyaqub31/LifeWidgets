@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Lifewidgets",
+    "slug": "lifewidgets",
+    "version": "3.0.12",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "lifewidgets",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.lifewidgets.mobileapp",
+      "buildNumber": "1",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "fetch",
+          "remote-notification"
+        ],
+        "NSPhotoLibraryUsageDescription": "For posting pictures to your social media account",
+        "NSCameraUsageDescription": "For posting pictures to your social media account",
+        "NSMicrophoneUsageDescription": "We need access to microphone for videos and audio recordings",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "To help identify local bars, restaurants and singles around you",
+        "NSLocationAlwaysUsageDescription": "To help identify local bars, restaurants and singles around you",
+        "NSLocationWhenInUseUsageDescription": "To help identify local bars, restaurants and singles around you",
+        "NSContactsUsageDescription": "Help you add friends quicly from your contacts"
+      }
+    },
+    "android": {
+      "package": "com.lifewidgets.mobileapp",
+      "softwareKeyboardLayoutMode": "resize",
+      "useNextNotificationsApi": true,
+      "versionCode": 11
+    },
+    "notification": {
+      "iosDisplayInForeground": true
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "description": ""
+  },
+  "hooks": {
+    "postPublish": [
+      {
+        "file": "sentry-expo/upload-sourcemaps",
+        "config": {
+          "organization": "life-widgets",
+          "project": "life-widgets",
+          "authToken": "a27973c1ebba4dd49b53013583e906032fb27e820892428fae5a923a590d08f3"
+        }
+      }
+    ]
+  }
+}

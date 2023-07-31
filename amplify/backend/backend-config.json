@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"lifewidget054707c0": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"lifewidget": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
